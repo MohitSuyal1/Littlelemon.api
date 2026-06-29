@@ -2,7 +2,7 @@ Little Lemon API
 A Django REST Framework project for managing restaurant data.
 
 Setup
-Clone the repo: git clone https://github.com/jyotipathak12/littlelemon-api.git
+Clone the repo: git clone https://github.com/MohitSuyal1/Littlelemon.api.git
 Install dependencies: pip install -r requirements.txt
 Run server: python manage.py runserver
 API Endpoints
