@@ -1,11 +1,39 @@
-Little Lemon API
-A Django REST Framework project for managing restaurant data.
+# Little Lemon API
 
-Setup
-Clone the repo: git clone https://github.com/MohitSuyal1/Littlelemon.api.git
-Install dependencies: pip install -r requirements.txt
-Run server: python manage.py runserver
-API Endpoints
-/restaurant/menu/ → List menu items
-/restaurant/reservations/ → Manage reservations
-/restaurant/orders/ → Handle orders
+A simple Django REST Framework project for managing restaurant data.
+
+## Features
+
+* Menu management
+* Reservations
+* Orders
+* REST API with Django
+
+## Technologies
+
+* Python
+* Django
+* Django REST Framework
+* SQLite
+
+## Installation
+
+```bash
+git clone https://github.com/MohitSuyal1/Littlelemon.api.git
+cd Littlelemon.api
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+## API Endpoints
+
+* `/restaurant/menu/` – Menu items
+* `/restaurant/reservations/` – Reservations
+* `/restaurant/orders/` – Orders
+
+## Author
+
+**Mohit Suyal**
+
+GitHub: https://github.com/MohitSuyal1
